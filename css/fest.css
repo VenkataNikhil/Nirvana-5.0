@@ -237,21 +237,21 @@ li:hover a {
     color: white;
     padding-top: 30px;
     height: auto;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 #workshops h1 {
     text-align: center;
-    font-size: 35px;
-    font-family: segoeui;
-    font-weight: 300;
+    font-size: 40px;
+    font-family: poppins-medium;
+/*    font-weight: 300;*/
     letter-spacing: 2px;
 }
 
 #workshops .wshops {
     display: flex;
     flex-direction: column;
-    margin-top: 70px;
+    margin-top: 60px;
     padding-left: 100px;
     padding-right: 100px;
     align-content: space-between;
@@ -259,14 +259,15 @@ li:hover a {
 
 .w .rt h3,
 .w .lt h3 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'poppins-medium', sans-serif;
     text-align: center;
     font-size: 30px;
+/*    font-weight: 300;*/
 }
 
 .w .rt p,
 .w .lt p {
-    font-family: 'Manjari', sans-serif;
+    font-family: 'segoeui', sans-serif;
     text-align: justify;
     margin-top: 50px;
     line-height: 25px;
@@ -299,34 +300,37 @@ li:hover a {
     height: 76vh;
     /*    background: #354046;*/
     color: #1a1a1a;
-    padding-top: 70px;
+    padding-top: 13px;
     background: url(../images/background.jpg) top center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     /*    filter: blur(5px);*/
 }
 
 #tech h1,
 #non-tech h1 {
     /*    font-family: 'Lato', sans-serif;*/
-    font-family: segoeui;
+    font-family: poppins-medium;
     text-transform: uppercase;
     margin-bottom: 90px;
     /*    color: #fff;*/
     text-align: center;
-    font-size: 35px;
-    letter-spacing: 1px;
-    font-weight: 300;
+    font-size: 40px;
+    letter-spacing: 2px;
+/*    font-weight: 300;*/
     line-height: 1.6rem;
 }
 
 #tech h1 {
     border: 5px solid #013870;
-    display: block;
+    display: inline-block;
     /*    width: 40%;*/
     text-align: center;
-    margin: 0px 35%;
+    margin: 0px auto;
     padding: 10px 15px;
-
     margin-bottom: 70px;
+    
 }
 
 #non-tech h1 {
@@ -377,9 +381,9 @@ li:hover a {
     text-align: center;
     color: #fff;
     text-transform: uppercase;
-    font-family: "segoeui";
+    font-family: "poppins-medium";
     font-weight: 300;
-    font-size: 35px;
+    font-size: 40px;
     letter-spacing: 2px;
     margin-bottom: 80px;
 }
@@ -416,10 +420,10 @@ li:hover a {
     text-align: center;
     color: #fff;
     text-transform: uppercase;
-    font-family: "segoeui";
-    font-weight: 300;
-    font-size: 35px;
-    letter-spacing: 4px;
+    font-family: "poppins-medium";
+/*    font-weight: 300;*/
+    font-size: 40px;
+    letter-spacing: 2px;
     margin-bottom: 70px;
 }
 
